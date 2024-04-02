@@ -23,6 +23,7 @@ for (let i = 0; i < bntShowModal.length; i++)
 bntCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
+// Création de la fonction escape
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal();
